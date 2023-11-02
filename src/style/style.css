@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wall-bg {
+	background-color: #01bdff;
+	padding: 20px;
+	background: #01bdff;
+	background: linear-gradient(to bottom right, #01bdff, #8ee8ff);
+}
+
+.wall-bg-dark {
+	background-color: #101010;
+	padding: 20px;
+	background: #101010;
+}
+
+.ZTRdiamond {
+	color: #01bdff;
+}
+
+/* Homepage.js */
+
+.homepage-title {
+	font-family: gothambold;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 33px;
+}
+
+.homepage-title-intro {
+	font-family: gothambold;
+	color: #fff;
+	font-weight: bolder;
+	padding-top: 20px;
+	font-size: 33px;
+}
+
+.homepage-desc {
+	font-family: monospace;
+	color: #fff;
+	padding: 20px;
+	font-size: 17px;
+}
+
+.homepage-desc-intro {
+	font-family: monospace;
+	color: #000;
+	padding: 8px;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #101010;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.tech-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tech-link img {
+    width: 80px;
+    height: 80px;
+}
+
+.tech-link:hover {
+    transform: scale(1.2);
+}
+
+.homepage-title-project {
+	font-family: gothambold;
+	color: #fff;
+	font-weight: bolder;
+	padding-top: 20px;
+	font-size: 33px;
+}
+
+.project-card-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.project-card-btn {
+	display: inline-block;
+    text-decoration: none !important;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card-btn:hover {
+    transform: scale(1.1);
+}
+
+.project-card {
+	background-color: #007eaa;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	margin: 20px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: auto;
+	height: 430px;
+}
+
+.project-card-title {
+	font-size: 23px;
+	color: #fff;
+	margin: 10px;
+	padding: 3px;
+	font-family: cocogoose;
+}
+
+.project-card-content {
+	background-color: #01bdff;
+	padding: 15px;
+	height: 500px;
+}
+
+.project-card-img {
+	width: 240px;
+	height: auto;
+	border-radius: 15px;
+	overflow: hidden;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.project-card-desc {
+	padding-top: 20px;
+	font-family: monospace;
+	font-size: 17px;
+	color: #000;
+}
+
+@media (max-width: 768px) {
+	.project-card-container {
+		display: block;
+	}
+}
+
+.contact-title {
+	font-family: gothambold;
+	font-size: 33px;
+	margin-bottom: 30px;
+}
+
+.contact-list {
+	width: fit-content;
+	display: grid;
+	align-items: left;
+	justify-content: center;
+	margin: 0 auto;;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+	transform: scale(1.2);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+
+.contact-link {
+	text-decoration: none;
+	color: #fff;
+    transition: color 0.1s ease-in-out;
+}
+
+.contact-link:hover {
+	text-decoration: none;
+	color: #01bdff;
+}
+
+.contact-avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-name {
+    font-size: 20px;
+    font-family: cocogoose;
+}
+
+
+/* end homepage.js */
