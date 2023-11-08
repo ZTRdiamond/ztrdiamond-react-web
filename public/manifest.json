@@ -3,17 +3,17 @@
   "name": "ZTRdiamond",
   "icons": [
     {
-      "src": "ztrdiamond-icon-circle.png",
+      "src": "ztrdiamond-icon-low.webp",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "ztrdiamond-icon-circle.png",
+      "src": "ztrdiamond-icon-low.webp",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "ztrdiamond-icon-circle.png",
+      "src": "ztrdiamond-icon-low.webp",
       "type": "image/png",
       "sizes": "512x512"
     }
