@@ -10,7 +10,7 @@ function Footer() {
 	   <br/><br/><br/>
 	   <div>
 			<h2 className="footer-title">About</h2>
-			<p className="footer-desc">Website built using react.js by ZTRdiamond, This is my self introduction website and where I share things like code and more. I can make discord bot and if you are interested, you can join my discord server to order discord bot on me. Thank you for visiting my website!</p>
+			<p className="footer-desc">This website built using ReactJS and made by me, I made this website for introducing myself and for my learning material in creating a website. Thank you for visiting my website ^_^</p>
 			<hr className="hr-footer"/>
 	   </div>
 	   <div>
