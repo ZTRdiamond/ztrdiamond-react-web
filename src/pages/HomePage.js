@@ -87,7 +87,7 @@ function HomePage() {
           </div>
           </a>
         
-          <a className="project-card-btn" href="https://wa.me/6285697103902?text=Menu">
+          <a className="project-card-btn" href="https://wa.me/62856971039025?text=Menu">
           <div className="project-card">
           <h3 className="project-card-title">ZanixonMD</h3>
           <div className="project-card-content">
