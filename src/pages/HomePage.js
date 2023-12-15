@@ -87,7 +87,7 @@ function HomePage() {
           </div>
           </a>
         
-          <a className="project-card-btn" href="https://wa.me/62856971039025?text=Menu">
+          <a className="project-card-btn" href="https://ztrdiamond.github.io/znbotweb">
           <div className="project-card">
           <h3 className="project-card-title">ZanixonMD</h3>
           <div className="project-card-content">
@@ -97,7 +97,7 @@ function HomePage() {
           </div>
           </a>
         
-          <a className="project-card-btn" href="https://warungvirtual.vercel.app">
+          <a className="project-card-btn" href="https://github com/ZTRdiamond/warung-virtual-discord-bot">
           <div className="project-card">
           <h3 className="project-card-title">Warung Virtual</h3>
           <div className="project-card-content">
