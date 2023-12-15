@@ -76,7 +76,7 @@ function HomePage() {
       <div className="wall-bg-dark">
         <h2 className="homepage-title-project" id="project">My Project</h2>        <div className="project-card-container">
         
-          <a className="project-card-btn" href="https://api.zanixonbeta.my.to">
+          <a className="project-card-btn" href="https://github.com/ZTRdiamond/ZanixonAPI">
           <div className="project-card">
           <h3 className="project-card-title">ZanixonAPI</h3>
           <div className="project-card-content">
@@ -97,7 +97,7 @@ function HomePage() {
           </div>
           </a>
         
-          <a className="project-card-btn" href="https://github com/ZTRdiamond/warung-virtual-discord-bot">
+          <a className="project-card-btn" href="https://github.com/ZTRdiamond/warung-virtual-discord-bot">
           <div className="project-card">
           <h3 className="project-card-title">Warung Virtual</h3>
           <div className="project-card-content">
